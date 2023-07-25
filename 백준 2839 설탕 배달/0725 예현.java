@@ -1,3 +1,4 @@
+//14276KB	128MS	397B
 import java.io.*;
 import java.util.*;
 class Main {
