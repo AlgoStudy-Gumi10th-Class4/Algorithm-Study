@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Nojam14888_230724 {
+public class JY_230724 {
 	static int N;
 	static int MAX_VAL = Integer.MIN_VALUE;
 	static int MIN_VAL = Integer.MAX_VALUE;
@@ -41,7 +41,7 @@ public class Nojam14888_230724 {
 			calc(newResult, numIdx + 1, copyOps(ops, opIdx));
 		}
 	}
-	
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
