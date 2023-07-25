@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 class Solution
 {	
@@ -6,6 +6,7 @@ class Solution
 	{
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
+		sc.close();
 		int min = -1;
 		int cnt = n / 5;
 		
