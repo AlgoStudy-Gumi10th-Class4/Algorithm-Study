@@ -1,10 +1,7 @@
 // 기타 레슨 (실버1) https://noj.am/2343
 //
-// 결과
+// 결과: 23832KB / 464ms
 // https://www.acmicpc.net/status?user_id=cheesecat47&problem_id=2343&from_mine=1
-// 
-// 기억할 점
-//
 
 // 시도 2 : 블로그 참고
 // https://chanhuiseok.github.io/posts/baek-22/
