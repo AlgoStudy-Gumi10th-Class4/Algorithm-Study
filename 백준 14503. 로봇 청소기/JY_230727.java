@@ -15,6 +15,7 @@
 // 1. move 변수 종료 조건을 하나 누락했었나 봄. 무한 재귀 걸렸음.
 // 2. visited 배열에 방문한 경우를 1로 체크했는데 벽이랑 중복돼서 잘못 카운트 됨.
 
+
 import java.util.Arrays;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
