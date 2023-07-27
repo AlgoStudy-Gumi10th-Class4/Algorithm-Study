@@ -23,7 +23,7 @@ public class Main {
                 map[i][j] = sc.nextInt();
         }
         clean();
-        System.out.println(cnt + " " + x + " " + y);
+        System.out.println(cnt);
         
     }
 
