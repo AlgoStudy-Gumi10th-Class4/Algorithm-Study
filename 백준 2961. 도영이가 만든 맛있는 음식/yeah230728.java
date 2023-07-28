@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-
+//https://www.acmicpc.net/status?user_id=k133117&problem_id=2961
 //모든 조합을 만들어보는 문제
 //리스트에 하나의 요리만 들어간 메뉴를 넣고 이전에 입력한 메뉴에 현재 요리를 추가.
 //교체가 아니라 추가이기 때문에 모든 조합을 확인할 수 있다.
