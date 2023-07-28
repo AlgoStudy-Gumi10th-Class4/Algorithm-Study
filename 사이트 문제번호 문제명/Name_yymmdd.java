@@ -8,6 +8,7 @@
 // 기억할 점
 //
 
+// 백준 제출 시 클래스 이름 Main 으로 변경 !!!
 public class Name_yymmdd {
     public static void main(String[] args) {
         int answer = 0;
