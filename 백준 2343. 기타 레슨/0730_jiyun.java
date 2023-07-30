@@ -1,3 +1,5 @@
+// 블로그 참조 -> 이분탐색, 코드 참조
+// 나중에 다시 풀어보기
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
