@@ -1,3 +1,12 @@
+/* BOJ_2578_Silver4_빙고
+* 어디서부터 잘못되었는가.. 
+* 1. 우선 visited에서 방향을 튼 것 - visited가 더 복잡할 것이라 생각함.
+* 2. 사회자 숫자 1차원 배열로 받은 것 - 2차원 배열로 받을 필요가 없으니 1차원 배열로 받겠다고 대충 생각함.
+* 
+* 도움 : 코딩거북이
+* - search() 함수에서 빙고 갯수 잘못 카운트 되는 것
+* - for문에 이름 붙여서 continue 하는 것
+*/
 package algorithm;
 
 import java.io.BufferedReader;
@@ -82,7 +91,6 @@ public class BOJ_2578_Silver4 {
 			b += 1;
 		}
 		// 대각선 탐색 1) i == j 2) i == 0 , j == 4 -> i+1, j-1
-		// 대각선 1 탐색 72라인
 		for (int i = 0; i < 5; i++) {
 			if (input[i][i] != 0) {
 				break;
