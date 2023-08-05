@@ -6,6 +6,7 @@
 * 도움 : 코딩거북이
 * - search() 함수에서 빙고 갯수 잘못 카운트 되는 것
 * - for문에 이름 붙여서 continue 하는 것
+* 
 */
 package algorithm;
 
