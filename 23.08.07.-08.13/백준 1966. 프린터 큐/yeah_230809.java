@@ -1,3 +1,4 @@
+//시간복잡도가 좋은 편은 아니다.
 import java.io.*;
 import java.util.*;
 public class Main {
@@ -12,6 +13,7 @@ public class Main {
 			int M = Integer.parseInt(tmp[1]);
 
 			int[] arr=new int[N];
+			//pq 사용으로 자동 최대값 생성
 			PriorityQueue<Integer> pq=new PriorityQueue<>((o1,o2)->(o2-o1));
 			tmp = br.readLine().split(" ");
 			for (int i = 0; i < N; i++) {
@@ -20,6 +22,7 @@ public class Main {
 			}
 			int idx=0;
 			int cnt=0;
+			//현 상태에서 최대값을 찾을 때까지 배열을 반복해서 돌기
 			while(!pq.isEmpty())
 			{
 				int max=pq.peek();
