@@ -2,12 +2,12 @@
 //
 // 결과: 14092KB / 120ms
 // https://www.acmicpc.net/status?user_id=cheesecat47&problem_id=2961&from_mine=1
-// 
+//
 // 기억할 점
 // 도영이.. 짜파구리 요리사.. 메모...
 
 // 시도 1
-// 
+//
 // 접근 방법
 // 신맛 또는 쓴맛 재료 하나 이상은 사용
 // 신맛은 재료의 곱, 쓴맛은 합, 이 계산 결과의 차이가 가장 작도록
@@ -15,14 +15,14 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class JY_230727 {
+public class Juyong_230727 {
     static int N;
     static long[][] ingredients;
     static long MIN_SOUR_BITTER_DELTA=Integer.MAX_VALUE;
 
     static void cook(int idx, long sour, long bitter) {
         if (sour > 0 && bitter > 0) {
-            MIN_SOUR_BITTER_DELTA = Math.min(MIN_SOUR_BITTER_DELTA, Math.abs(sour - bitter));    
+            MIN_SOUR_BITTER_DELTA = Math.min(MIN_SOUR_BITTER_DELTA, Math.abs(sour - bitter));
         }
 
         if (idx == N) return;
