@@ -1,3 +1,6 @@
+/* BOJ_2630_Silver2_색종이 만들기
+* 수업자료(e-book) 참고
+*/
 package algorithm;
 
 import java.io.BufferedReader;
